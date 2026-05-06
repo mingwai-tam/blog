@@ -9,6 +9,7 @@ github_username: mingwai-tam
 
 # Build settings
 theme: minima
+timezone: Asia/Hong_Kong
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

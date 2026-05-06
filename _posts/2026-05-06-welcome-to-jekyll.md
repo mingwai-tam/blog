@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
-date: 2026-05-06 12:00:00 +0000
+date: 2026-05-06 12:00:00 +0800
 categories: jekyll blog
 tags: welcome getting-started
 ---

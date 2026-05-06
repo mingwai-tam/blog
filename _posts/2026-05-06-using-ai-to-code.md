@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using AI to Code Better
-date: 2026-05-06 14:00:00
+date: 2026-05-06 14:00:00 +0800
 categories: technology ai coding
 ---
 
