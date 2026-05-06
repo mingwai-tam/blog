@@ -6,13 +6,24 @@ permalink: /about/
 
 ## About Me
 
-Hi! I'm **Ming-Wai Tam** ([@mingwai-tam](https://github.com/mingwai-tam)), a developer and technology enthusiast passionate about learning and building useful tools.
+Hi! I'm **Ming-Wai Tam** ([@mingwai-tam](https://github.com/mingwai-tam)), an experienced software engineer who leverages modern AI tools to build better software faster.
+
+### My Development Approach
+
+I focus on **design and business logic** while using AI agents to handle:
+- Documentation generation
+- Code implementation
+- Code review and optimization
+- Testing and validation
+
+This agent-driven workflow allows me to concentrate on what matters most: understanding business requirements, making architectural decisions, and ensuring solutions are robust and maintainable.
 
 ### Interests & Skills
-- Software development and programming
+- Software engineering and architecture
+- AI-assisted development practices
 - Python, JavaScript, and web technologies
 - Open source contributions
-- Technology and innovation
+- Building scalable, maintainable systems
 
 ### Connect With Me
 - **GitHub:** [@mingwai-tam](https://github.com/mingwai-tam)
