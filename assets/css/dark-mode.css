@@ -1,0 +1,140 @@
+/* Dark Mode Support */
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --text-primary: #111111;
+  --text-secondary: #666666;
+  --border-color: #eeeeee;
+  --code-bg: #f4f4f4;
+  --link-color: #1756a9;
+  --link-hover: #0d47a1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --border-color: #30363d;
+    --code-bg: #0d1117;
+    --link-color: #58a6ff;
+    --link-hover: #79c0ff;
+  }
+}
+
+/* Apply dark mode colors */
+html {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Headers and navigation */
+.site-header {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.site-nav .page-link {
+  color: var(--text-primary);
+}
+
+.site-nav .page-link:hover {
+  color: var(--link-color);
+}
+
+/* Post meta information */
+.post-meta {
+  color: var(--text-secondary);
+}
+
+/* Code blocks */
+code {
+  background-color: var(--code-bg);
+  color: var(--text-primary);
+}
+
+pre {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+pre code {
+  background-color: transparent;
+}
+
+/* Blockquotes */
+blockquote {
+  color: var(--text-secondary);
+  border-left: 4px solid var(--border-color);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid var(--border-color);
+  padding: 8px 13px;
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--bg-secondary);
+}
+
+/* Post content */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: var(--text-primary);
+}
+
+/* Highlights and selections */
+::selection {
+  background-color: var(--link-color);
+  color: var(--bg-primary);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.site-footer a {
+  color: var(--link-color);
+}
+
+/* Paginator */
+.paginator {
+  color: var(--text-primary);
+}
+
+.paginator a {
+  color: var(--link-color);
+}

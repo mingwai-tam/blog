@@ -1,11 +1,11 @@
 # Site settings
-title: My Blog
-email: your-email@example.com
-description: A blog built with Jekyll
+title: Ming-Wai's Blog
+email: ming-wai.tam@outlook.com
+description: A blog about technology, learning, and ideas
 baseurl: "/blog"
-url: "https://yourusername.github.io"
-twitter_username: your-twitter
-github_username: your-github
+url: "https://mingwai-tam.github.io"
+twitter_username: ming_wai_tam
+github_username: mingwai-tam
 
 # Build settings
 theme: minima

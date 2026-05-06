@@ -58,10 +58,10 @@ tags: tag1 tag2
 
 ## Deployment to GitHub Pages
 
-1. Push this repo to GitHub
-2. Go to repository Settings → Pages
-3. Set source to main branch and save
-4. Your blog will be available at `https://yourusername.github.io/blog/`
+1. The repo is already configured for GitHub Pages
+2. It's set to deploy from `mingwai-tam.github.io` with baseurl `/blog/`
+3. Your blog will be available at: **https://mingwai-tam.github.io/blog/**
+4. Just push to GitHub and enable Pages in Settings if not already done
 
 ## Resources
 
